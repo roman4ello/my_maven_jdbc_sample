@@ -10,9 +10,9 @@ public class DataSource {
     private String password;
 
     public DataSource() {
-        setUrl("jdbc:mysql://localhost:3306/warehouse?useSSL=false&");
+        setUrl("jdbc:mysql://192.168.1.103:6603/warehouse?useSSL=false&");
         setLogin("root");
-        setPassword("my-secret-pw");
+        setPassword("12345");
     }
 
     public void setUrl(String url) {
